@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+    <title>HomePage</title>
+</head>
+<body>
+<div class="container-fluid text-center">
+  <h1 class="h1">INYANGE WATER DISTRIBUTOR MANAGEMENT SYSTEM</h1>
+  <div class="m-2" style="padding-top: 6rem;">
+    <a class="btn btn-primary" th:href="@{/signup}">Users</a>
+  </div>
+
+  <div class="m-2" style="padding-top: 6rem;">
+    <a class="btn btn-primary" th:href="@{/users}">Manage Users</a>
+    <a class="btn btn-secondary" th:href="@{/products}">Manage Products</a>
+    <a class="btn btn-secondary" th:href="@{/clients}">Manage Clients</a>
+  </div>
+</div>
+</body>
+</html>
